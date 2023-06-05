@@ -13,6 +13,14 @@ h1{
     text-align: center;
     font-size: 2.5rem;
 }
+h3{
+    margin: 20px;
+}
+.card img{
+    width: 80%;
+    height: auto;
+    contain: content;
+}
 .navegador{
     display: flex;
     flex-direction: row;
@@ -36,3 +44,181 @@ h1{
     color:rgb(135, 116, 11);
     font-weight: bold;
 }
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+button {
+    border: 0.125em solid #1A1A1A;
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #1A1A1A;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    padding: 0.5em 1em;
+    margin-top: 10px;
+    text-align: center;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+   }
+   
+   button:disabled {
+    pointer-events: none;
+   }
+   
+   button:hover {
+    border: 0.125em solid #1A1A1A;
+    color: #3B3B3B;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+   }
+   
+   button:active {
+    box-shadow: none;
+    transform: translateY(0);
+   }
+.card {
+    width: 290px;
+    height: 380px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+.precioContainer{
+  display: flex;
+}
+
+  .form-box {
+    width: 40%;
+    background: #f1f1f1;
+    overflow: hidden;
+    border-radius: 5px;
+    color: #010101;
+  }
+  
+  .form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px 24px;
+    gap: 16px;
+    text-align: center;
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .form-container {
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 1rem 0 .5rem;
+    width: 100%;
+  }
+  
+  .inputForm {
+    background: none;
+    border: 0;
+    outline: 0;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    font-size: .9rem;
+    padding: 8px 15px;
+    background-color: #fff;
+  }
+  
+  .form-section {
+    padding: 16px;
+    font-size: .85rem;
+    text-align: center;
+    background-color: #dedede;
+    box-shadow: rgb(0 0 0 / 8%) 0 -1px;
+  }
+  
+  .form-section a {
+    font-weight: bold;
+    color: #3e3e3e;
+    transition: color .3s ease;
+  }
+  
+  .form-section a:hover {
+    color: rgb(135, 116, 11);
+    text-decoration: underline;
+  }
+  
+  .form button {
+    background-color: #1a1a1a;
+    color: #fff;
+    border: 0;
+    border-radius: 24px;
+    padding: 10px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color .3s ease;
+  }
+  
+  .form button:hover {
+    background-color: #1a1a1a;
+  }
+
+  .formulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .inputbutton{
+    border: 0.125em solid #1A1A1A;
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #1A1A1A;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    padding: 0.5em 1em;
+    margin-top: 10px;
+    text-align: center;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  }
+  
+  .input {
+    max-width: 190px;
+    background-color: #f5f5f5;
+    color: #242424;
+    padding: .15rem .5rem;
+    min-height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    line-height: 1.15;
+    box-shadow: 0px 10px 20px -18px;
+  }
+  
+  .inputForm:focus {
+    border-bottom: 2px solid rgb(135, 116, 11);
+    border-radius: 4px 4px 2px 2px;
+  }
+  
+  .inputForm:hover {
+    outline: 1px solid lightgrey;
+  }

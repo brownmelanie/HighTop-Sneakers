@@ -1,3 +1,4 @@
+  /*
 const productos = [
     {nombre: "Adidas Forum 84 Low", precio: 58999},
     {nombre: "Adidas Ultraboost Light", precio: 89999},
@@ -9,6 +10,13 @@ const productos = [
     {nombre: "New Balance X-Racer", precio: 48449},
     {nombre: "New Balance 574", precio: 37349},
   ];
+
+document.getElementById("buscar").addEventListener("click", ()=>{
+    const buscado = document.getElementById("buscador").value;
+})
+
+
+
 
 let buscarNombre = prompt("Ingrese el nombre del producto que desea buscar");
   
@@ -25,3 +33,4 @@ if(resultados.length === 0){
     alert("Los productos encontrados con el nombre ingresado son:\n\n" + resultados.map(producto => `${producto.nombre}, $${producto.precio}`).join("\n"));
 }
 
+*/
