@@ -2,10 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 body{
     margin: 0px;
-    padding: 0px;
+    padding-top: 100px;
     font-family: 'Raleway', sans-serif;;
 }
-h1{
+.navbar{
+  padding-bottom: 0px;
+}
+.navbar-brand{
     font-weight: bold;
     font-style: italic;
     color: black;
@@ -13,41 +16,39 @@ h1{
     text-align: center;
     font-size: 2.5rem;
 }
+
+h2{
+  font-weight: bold;
+  font-size: 20px;
+}
+b{
+  font-size: 17px;
+}
 h3{
     margin: 20px;
+}
+
+.portada{
+  width: 100%;
+  height: auto;
 }
 .card img{
     width: 80%;
     height: auto;
     contain: content;
 }
-.navegador{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.navegador ul{
-    list-style-type: none;
-    text-align: center;
-}
-.navegador li{
-    display: inline;
-    text-align: center;
-    padding: 0.5em;
-}
-.navegador li a{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-.navegador li a:hover{
-    color:rgb(135, 116, 11);
-    font-weight: bold;
-}
 .shop{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+img{
+  height: 200px;
+  width: auto;
+}
+.search{
+  border: 0.125em solid #8e8e8e;
+  border-radius: 0.9375em;
 }
 button {
     border: 0.125em solid #1A1A1A;
@@ -82,6 +83,17 @@ button {
     box-shadow: none;
     transform: translateY(0);
    }
+
+   .navbar-toggler{
+    transition: none;
+    border: none;
+  }
+  .navbar-toggler:hover {
+    border: none;
+    box-shadow: none;
+    transform: translate(0px);
+    padding-bottom: 10px;
+   }
 .card {
     width: 290px;
     height: 380px;
@@ -93,6 +105,7 @@ button {
     align-items: center;
     justify-content: center;
     margin: 10px;
+    padding: 10px;
   }
 .precioContainer{
   display: flex;

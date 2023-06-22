@@ -1,0 +1,11 @@
+[
+    {"nombre": "Adidas Forum 84 Low", "precio": "58999", "img": "../img/forumLow.jpg"},
+    {"nombre": "Adidas Ultraboost Light", "precio": "89999", "img": "../img/ultraboost.jpg"},
+    {"nombre": "Adidas Rivarly Low", "precio": "55999", "img": "../img/rivarly.jpg"},
+    {"nombre": "Nike Dunk High", "precio": "59999", "img": "../img/dunk.jpg"},
+    {"nombre": "Nike Air Presto", "precio": "69999", "img": "../img/presto.jpg"},
+    {"nombre": "Nike Metcon 8", "precio": "63999", "img": "../img/metcon.jpg"},
+    {"nombre": "New Balance 550", "precio": "55149", "img": "../img/550.jpg"},
+    {"nombre": "New Balance X-Racer", "precio": "48449", "img": "../img/racer.jpg"},
+    {"nombre": "New Balance 574", "precio": "37349", "img": "../img/574.jpg"}
+]
